@@ -1,0 +1,1282 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "gotham";
+    src: url(../fonts/gotham.ttf);
+    font-style: normal;
+}
+
+/* HEADER */
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.header nav div ul {
+    display: flex;
+    align-items: center;
+}
+
+.header nav div ul li {
+    padding: 0 30px;
+}
+
+.nav-link {
+    font-family: 'gotham';
+    font-size: 18px;
+    color: #545023;
+    letter-spacing: 3px;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.header nav div div ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hover {
+    display: none;
+}
+
+.navUno:hover>img {
+    display: block;
+    position: absolute;
+    padding-top: 50px;
+}
+
+/* MAIN */
+
+.navegacion {
+    display: none;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    ;
+    color: #545023;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 75px;
+    margin-top: 50px;
+    margin-left: 70px;
+    font-weight: 600;
+}
+
+body {
+    text-align: center;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0) 10%, rgba(227, 184, 149, 0.1) 90%);
+    background-image: url("../images/fondoSombras.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* .fondoSombras {
+    background-image: url("../images/fondoSombras.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+} */
+
+.main__images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+}
+
+.main__images div {
+    height: 697px;
+    width: 320px;
+    padding-top: 190px;
+    margin-right: 30px;
+}
+
+.main__texto {
+    margin-left: auto;
+    margin-right: auto;
+    margin: 90px 15px 0 15px;
+}
+
+.texto {
+    font-family: 'Playfair Display', serif;
+    color: #442719;
+    font-size: 38px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.main__subtitulos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.main__subtitulos .subtitulo {
+    width: 405px;
+}
+
+.subtitulo {
+    font-family: "gotham";
+    color: #0000008c;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 5px;
+    line-height: 1.5;
+}
+
+.contenedor {
+    position: relative;
+    text-align: center;
+}
+
+.texto--tatuate {
+    font-family: 'Playfair Display', serif;
+    color: #545023;
+    font-size: 3em;
+    font-weight: bold;
+    position: absolute;
+    top: 24px;
+    left: -25px;
+}
+
+/* CAROUSEL */
+
+.carousel {
+    display: none;
+}
+
+.carousel-indicators [data-bs-target] {
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+    background-color: #D9D9D9;
+}
+
+.carousel-indicators .active {
+    background-color: #8F311F;
+}
+
+.carousel-indicators {
+    top: 480px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    display: none;
+}
+
+.carousel-inner {
+    margin-top: 70px;
+}
+
+/* FOOTER SEBAS */
+
+footer {
+    margin-bottom: 0;
+    margin-top: 100px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a:hover {
+    color: #000000b3;
+}
+
+footer div {
+    width: 311px;
+}
+
+footer div a {
+    text-decoration: none;
+}
+
+.footer__home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__instagram {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.footer__instagram img {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 8px;
+}
+
+.footer__instagram div {
+    height: 48px;
+    width: 48px;
+    background-color: #545023;
+    border-radius: 100%;
+}
+
+.footer__tiktok {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.footer__tiktok img {
+    width: 23px;
+    height: 23px;
+    position: relative;
+    top: 8px;
+}
+
+.footer__tiktok div {
+    height: 48px;
+    width: 48px;
+    background-color: #545023;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+
+/* SECCIÓN CATTATOO */
+
+.catattoo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 70px 0 230px;
+}
+
+.catattoo div {
+    width: 500px;
+    margin-top: 40px;
+}
+
+.catattoo div img {
+    width: 340px;
+}
+
+.catattoo div h1 {
+    display: flex;
+    letter-spacing: 10px;
+    margin-top: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+.catattoo div p {
+    font-family: 'gotham';
+    text-align: start;
+    text-indent: 20%;
+    margin-top: 40px;
+    color: #545023;
+    letter-spacing: 1px;
+}
+
+.catattoo div div img {
+    width: 50px;
+}
+
+/* TATUAJES*/
+
+/* TATUJES */
+
+.banner{
+    margin: 50px 0;
+}
+
+.banner2{
+    margin: 200px 0;
+}
+
+.banner3{
+    margin: 150px 0;
+}
+
+.tatuajesTitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 0;
+}
+
+.tatuajesTitulo h1{
+    font-size: 32px;
+}
+
+.tatuajesTitulo img{
+    width: 60px;
+    padding-top: 40px;
+}
+
+.tatuajesH2 {
+    font-family: 'Playfair Display', serif;
+    color: #545023;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 15px;
+    font-weight: 600;
+}
+
+.tatuajesSegundoTitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+}
+
+
+.subtituloTatuajes{
+    font-family: "gotham";
+    color: #0000008c;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    width: 350px;
+    margin: 0 50px;
+}
+
+/* Relatos */
+.titulos__relatos {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 1em;
+    text-align: start;
+}
+
+.titulos__relatos--gotham {
+    font-family: 'gotham';
+    font-weight: bolder;
+    font-size: 1em;
+    text-align: start;
+}
+
+.container__relato1 {
+    background-image: url("../images/fondoPapel.png");
+    width: 843px;
+    height: 570px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.relato1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 1em;
+    padding-top: 110px;
+    padding-left: 150px;
+    letter-spacing: 0.5px;
+    text-align: start;
+}
+
+.container__relato2 {
+    width: 794px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.relato2 {
+    font-family: "gotham";
+    margin-bottom: 70px;
+    padding-left: 14px;
+    text-align: start;
+}
+
+.container__relato3 {
+    background-image: url("../images/fondoPapel2.png");
+    width: 397px;
+    height: 445px;
+    margin-top: 50px;
+}
+
+.relato3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: #8F311F;
+    padding: 30px 0 0 50px;
+    text-align: start;
+}
+
+.container__relatos {
+    display: flex;
+    justify-content: center;
+    margin: 50px
+}
+
+.container__relato4 {
+    width: 500px;
+    margin-left: 50px;
+}
+
+.relato4 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: #545023;
+    text-align: start;
+}
+
+.container__relato5 {
+    width: 794px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+hr {
+    width: 980px;
+    margin: auto
+}
+
+.marginS {
+    margin: 100px;
+}
+
+/* Proyecto sombras */
+.video {
+    width: 1008px;
+    height: 567px;
+    margin-top: 100px;
+}
+
+.proyectoTitulo {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    color: #545023;
+    letter-spacing: 10px;
+    margin: 0 40px;
+    font-weight: 700;
+}
+
+.sol {
+    width: 40px;
+    margin-bottom: 30px;
+}
+
+.proyectoSubtitulo--1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4em;
+    color: #442719;
+    letter-spacing: 5px;
+    margin: 0 0 0 0;
+    font-weight: 700;
+    text-align: center;
+}
+
+.proyectoSubtitulo--2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4em;
+    color: #8F311F;
+    letter-spacing: 5px;
+    margin: 0 0 0 140px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.proyectoParrafo--1 {
+    font-family: 'Gotham';
+    font-size: 1em;
+    width: 900px;
+    text-align: center;
+    margin: 100px auto;
+    line-height: 35px;
+}
+
+.proyectoSubtitulo--3 {
+    font-family: "Gotham";
+    font-size: 1.4em;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.proyectoSubtitulo--4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8em;
+    color: #C2AB1D;
+    font-weight: 700;
+    width: 200px;
+    text-align: center;
+}
+
+.proyectoSubtitulo--5 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8em;
+    color: #8F311F;
+    font-weight: 700;
+    width: 200px;
+    text-align: center;
+}
+
+.sol--2 {
+    margin: 20px 200px;
+}
+
+.main__lineaTiempo {
+    margin-top: 100px;
+}
+
+.texto__izquierda {
+    font-family: "Gotham";
+    font-size: 1em;
+    text-align: end;
+    width: 370px;
+    margin: 30px 0 135px 0;
+}
+
+.texto__derecha {
+    font-family: "Gotham";
+    font-size: 1em;
+    text-align: start;
+    width: 370px;
+    margin-bottom: 125px;
+}
+
+.proyectoSubtitulo--rojoIzquierda {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8em;
+    color: #8F311F;
+    font-weight: 700;
+    text-align: end;
+    margin-top: 10px;
+}
+
+.proyectoSubtitulo--amarilloIzquierda {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8em;
+    color: #C2AB1D;
+    font-weight: 700;
+    text-align: end;
+    margin-bottom: 115px;
+}
+
+.lineaTiempo {
+    margin: 50px 80px;
+}
+
+.proyectoSubtitulo--rojoDerecha {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8em;
+    color: #8F311F;
+    font-weight: 700;
+    text-align: start;
+    margin: 146px 0 150px 0;
+}
+
+.proyectoSubtitulo--amarilloDerecha {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8em;
+    color: #C2AB1D;
+    font-weight: 700;
+    text-align: start;
+    margin: 60px 0 150px 0;
+}
+
+.numero {
+    font-family: 'Playfair Display', serif;
+    font-size: 10em;
+    color: #E3B895;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.main__arboles {
+    margin-top: 150px;
+}
+
+.solRojo {
+    margin: 100px 60px 0 60px;
+}
+
+.proyectoParrafo--2 {
+    font-family: "Gotham";
+    font-size: 1em;
+    width: 290px;
+    text-align: center;
+    border: 2px solid #000000;
+    padding-bottom: 20px;
+    border-width: 0 0 5px 0;
+    margin-bottom: 150px;
+}
+
+.cafecito {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8em;
+    color: #545023;
+    letter-spacing: 10px;
+    margin: 0 auto 15px auto;
+    text-align: center;
+    font-weight: 700;
+    width: 493px;
+    text-decoration: none;
+}
+
+.borderTop {
+    border: 5px solid #E3B895;
+    border-width: 5px 0 0 0;
+    width: 250px;
+    margin: 0 auto;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 1256px) {
+    .header nav div ul li {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 1116px) {
+    .header nav div ul li {
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .navbar-nav {
+        position: absolute;
+        left: 50%;
+        top: 60%;
+        background-color: white;
+        border-radius: 12px;
+        opacity: 80%;
+        box-shadow: 1px 4px 5px 1px #a19e9e;
+        height: 400px;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 999;
+    }
+
+    .navegacion {
+        display: block;
+    }
+
+    .navLogo {
+        display: none;
+    }
+
+    .navbar {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: url(../images/menu.png);
+    }
+
+    .navbar-toggler {
+        border: none;
+    }
+
+    .collapse:not(.show) {
+        border: none;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .container-fluid {
+        width: 80%;
+    }
+
+    .navUno a {
+        padding: 30px 0;
+        color: #000000;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: rgba(0, 0, 0, .9);
+    }
+
+    .navbar-brand {
+        margin-right: 0;
+        margin-left: 30px;
+    }
+
+    .main__images {
+        display: none;
+    }
+
+    .main__texto {
+        font-size: 30px;
+    }
+
+    /* MAIN */
+
+    h1 {
+        letter-spacing: 55px;
+        margin-top: 50px;
+        margin-left: 55px;
+    }
+
+    .main__texto {
+        margin-top: 170px;
+    }
+
+    .main__subtitulos {
+        flex-direction: column;
+        margin: 60px 0 0 0;
+    }
+
+    .subtitulo {
+        padding: 40px 0;
+    }
+
+
+    /* CAROUSEL */
+
+    .carousel {
+        display: block;
+    }
+
+    /* FOOTER */
+
+    footer {
+        margin-top: 40px;
+    }
+
+    .footer__instagram h2 {
+        display: none;
+    }
+
+    .footer__tiktok h2 {
+        display: none;
+    }
+
+    /* SECCIÓN CATTATOO */
+
+    .catattoo {
+        flex-direction: column;
+        margin: 5px 0 30px;
+    }
+
+    .catattoo div {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .catattoo div img {
+        width: 250px;
+    }
+
+    .catattoo div h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        margin: 30px 0;
+    }
+
+    .catattoo div p {
+        padding-top: 30px;
+        font-size: 20px;
+        margin: 0 40px;
+    }
+
+    /* Relatos */
+
+    hr {
+        width: 600px;
+    }
+
+    .container__relato1 {
+        background-image: url("../images/fondoPapelM.png");
+        width: 590px;
+        height: 395px;
+    }
+    
+    .relato1 {
+        font-size: 0.8em;
+        padding-top: 50px;
+        padding-left: 110px;
+    }
+
+    .container__relato2 {
+        width: 590px;
+        margin-top: 80px;
+    }
+    
+    .relato2 {
+        font-size: 0.8em;
+        padding-left: 35px;
+    }
+
+    .marginS {
+        margin: 75px;
+    }
+
+    .container__relato3 {
+        background-image: url("../images/fondoPapel2M.png");
+        width: 282px;
+        height: 315px;
+        margin-top: 0;
+    }
+    
+    .relato3 {
+        font-size: 0.8em;
+        padding: 15px 0 0 25px;
+    }
+    
+    .container__relatos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px
+    }
+    
+    .container__relato4 {
+        width: 250px;
+        margin-left: 0;
+    }
+    
+    .relato4 {
+        font-size: 0.8em;
+        margin-left: 10px;
+    }
+
+    .florRelatos {
+        width: 275px;
+        margin-left: 0px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .container__relato5 {
+        width: 590px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+    }
+
+    /* Proyecto sombras */
+    
+    .proyectoTitulo {
+        font-size: 1.6em;
+        letter-spacing: 5px;
+        margin: 0 25px;
+    }
+    
+    .sol {
+        width: 35px;
+        margin-bottom: 30px;
+    }
+
+    .video {
+        width: 650px;
+        height: 365.6px;
+        margin-top: 100px;
+    }
+    
+    .proyectoSubtitulo--1 {
+        font-size: 1.2em;
+        letter-spacing: 2px;
+    }
+
+    .proyectoSubtitulo--2 {
+        font-size: 1.2em;
+        letter-spacing: 2px;
+        margin: 0 0 0 80px;
+    }
+
+    .proyectoParrafo--1 {
+        font-size: 0.8em;
+        width: 650px;
+        line-height: 25px;
+    }
+
+    .proyectoSubtitulo--3 {
+        font-size: 1.2em;
+        margin-bottom: 60px;
+    }
+
+    .proyectoSubtitulo--4 {
+        font-size: 1.6em;
+        width: 200px;
+    }
+
+    .proyectoSubtitulo--5 {
+        font-size: 1.6em;
+        width: 200px;
+    }
+
+    .sol--2 {
+        margin: 5px 70px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .flecha {
+        width: 400px;
+    }
+
+    .main__lineaTiempo {
+        margin-top: 80px;
+    }
+
+    .texto__izquierda {
+        font-size: 0.8em;
+        width: 259px;
+        margin: 35px 0 95px 0;
+    }
+
+    .texto__derecha {
+        font-size: 0.8em;
+        width: 259px;
+        margin-bottom: 85px;
+    }
+
+    .proyectoSubtitulo--rojoIzquierda {
+        font-size: 1.6em;
+    }
+
+    .proyectoSubtitulo--amarilloIzquierda {
+        font-size: 1.6em;
+        margin-bottom: 58px;
+    }
+
+    .lineaTiempo {
+        margin: 50px 40px;
+        width: 40px;
+    }
+
+    .proyectoSubtitulo--rojoDerecha {
+        font-size: 1.6em;
+        margin: 105px 0 100px 0;
+    }
+
+    .proyectoSubtitulo--amarilloDerecha {
+        font-size: 1.6em;
+        margin: 50px 0 120px 0;
+    }
+
+    .slideNativas {
+        margin-top: 0;
+    }
+
+    .numero {
+        font-size: 8em;
+        margin-bottom: 70px;
+        margin-top: -40px;
+    }
+
+    .main__arboles {
+        margin-top: 80px;
+    }
+
+    .solRojo {
+        height: 100px;
+        width: 100px;
+        margin: 90px 40px 0 40px;
+    }
+
+    .proyectoParrafo--2 {
+        font-size: 0.8em;
+        width: 230px;
+        margin-bottom: 120px;
+    }
+
+    .cafecito {
+        font-size: 1.6em;
+        letter-spacing: 5px;
+        width: 493px;
+        
+    }
+
+    .borderTop {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .navbar-nav {
+        left: 40%;
+    }
+
+    .tatuajesSegundoTitulo
+    {
+        flex-direction: column;
+    }
+
+    .tatuajesH2 {
+        font-size: 25px;
+        text-align: center;
+        letter-spacing: 5px;
+        font-weight: 600;
+    }
+
+    .subtituloTatuajes{
+        padding: 25px 0;
+    }
+}
+
+@media screen and (max-width: 669px) {
+    h1 {
+        letter-spacing: 15px;
+        margin-top: 50px;
+        margin-left: 17px;
+    }
+
+    .texto {
+        font-size: 25px;
+    }
+
+    .carousel-inner {
+        width: 100%;
+    }
+
+    .navbar-nav {
+        left: 25%;
+    }
+
+    hr {
+        width: 325px;
+    }
+
+    .container__relato1 {
+        background-image: url("../images/fondoPapelS.png");
+        width: 326px;
+        height: 455px;
+    }
+    
+    .relato1 {
+        font-size: 0.7em;
+        padding-top: 70px;
+        padding-left: 50px;
+    }
+
+    .container__relato2 {
+        width: 330px;
+    }
+    
+    .relato2 {
+        font-size: 0.7em;
+    }
+
+    .marginS {
+        margin: 75px;
+    }
+
+    .container__relato3 {
+        background-image: url("../images/fondoPapel2S.png");
+        width: 265px;
+        height: 280px;
+    }
+    
+    .relato3 {
+        font-size: 0.7em;
+    }
+    
+    .container__relato4 {
+        width: 250px;
+        margin-left: 0;
+    }
+    
+    .relato4 {
+        font-size: 0.7em;
+        margin-left: 10px;
+    }
+
+    .florRelatos {
+        width: 225px;
+        margin-left: 20px;
+    }
+
+    .container__relato5 {
+        width: 330px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+    }
+
+    /* Proyecto sombras */
+    
+    .proyectoTitulo {
+        font-size: 1.2em;
+        margin: 0 10px;
+    }
+    
+    .sol {
+        width: 25px;
+    }
+
+    .video {
+        width: 340px;
+        height: 191.2px;
+        margin-top: 70px;
+    }
+    
+    .proyectoSubtitulo--1 {
+        font-size: 1.0em;
+    }
+
+    .proyectoSubtitulo--2 {
+        font-size: 1.0em;
+        margin: 0 0 0 10px;
+    }
+
+    .proyectoParrafo--1 {
+        font-size: 0.6em;
+        width: 340px;
+        line-height: 20px;
+        margin: 70px auto;
+    }
+
+    .proyectoSubtitulo--3 {
+        font-size: 1.0em;
+        margin-bottom: 60px;
+    }
+
+    .proyectoSubtitulo--4 {
+        font-size: 1em;
+        width: 110px;
+    }
+
+    .proyectoSubtitulo--5 {
+        font-size: 1em;
+        width: 110px;
+    }
+
+    .sol--2 {
+        margin: 5px 30px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .flecha {
+        width: 250px;
+    }
+
+    .main__lineaTiempo {
+        margin-top: 50px;
+    }
+
+    .texto__izquierda {
+        font-size: 0.6em;
+        width: 135px;
+        margin: 25px 0 55px 0;
+    }
+
+    .texto__derecha {
+        font-size: 0.6em;
+        width: 135px;
+        margin-bottom: 35px;
+    }
+
+    .proyectoSubtitulo--rojoIzquierda {
+        font-size: 1.2em;
+        margin-top: 22px;
+    }
+
+    .proyectoSubtitulo--amarilloIzquierda {
+        font-size: 1.2em;
+        margin-bottom: 35px;
+    }
+
+    .lineaTiempo {
+        margin: 50px 20px 120px 20px;
+        width: 30px;
+    }
+
+    .proyectoSubtitulo--rojoDerecha {
+        font-size: 1.2em;
+        margin: 65px 0 50px 0;
+    }
+
+    .proyectoSubtitulo--amarilloDerecha {
+        font-size: 1.2em;
+        margin: 48px 0 70px 0;
+    }
+
+    .slideNativas {
+        margin-top: -30px;
+    }
+
+    .imgNativa {
+        width: 350px;
+    }
+
+    .numero {
+        font-size: 6em;
+        margin-bottom: 70px;
+        margin-top: -40px;
+    }
+
+    .solRojo {
+        height: 70px;
+        width: 70px;
+        margin: 110px 5px 0 5px;
+    }
+
+    .proyectoParrafo--2 {
+        font-size: 0.6em;
+        width: 111px;
+        margin-bottom: 85px;
+        height: 101px;
+        padding-bottom: 10px;
+    }
+
+    .cafecito {
+        font-size: 1.2em;
+        width: 340px;
+    }
+
+    .borderTop {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .navbar-nav {
+        left: 7%;
+    }
+
+    .tatuajesTitulo{
+        margin: 0;
+    }
+
+    .banner2{
+        margin: 90px 0;
+    }
+
+    .banner3{
+        margin: 90px 0;
+    }
+
+    .imgTatuajes{
+        width: 400px;
+    }
+
+    .tatuajesH1{
+        letter-spacing: 10px;
+        margin-top: 50px;
+        margin-left: 17px;
+    }
+
+    /* tatuajes */
+    .main-carousel div img{
+        width: 350px;
+    }
+}
